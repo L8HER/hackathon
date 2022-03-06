@@ -1,0 +1,37 @@
+.bodyLogin{
+    background-color: white;
+}
+div.loginPage{
+    margin-top: 5%;
+    text-align:center;
+}
+h4{
+    text-align: center;
+}
+
+a.loginTitle{
+    color:black;
+    text-decoration: none;
+    font-family: KimFont;
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+form {   
+    border: 3px solid black;   
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+    margin: 5%;
+}   
+
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    margin-bottom: 20px;
+    padding: 12px 20px;   
+    display: inline-block;    
+    box-sizing: border-box;  
+}  
+
+

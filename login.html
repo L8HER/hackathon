@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Responsive Registration For | CodingLab </title>
+        <link rel = "stylesheet" href = "CSS/login1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "title">Registration</div>
+            <form onsubmit="Login();" action = "#">
+                <div class = "user-details">
+                    <div class = "input-box">
+                        <span class = "details">Username</span>
+                        <input type = "text" id="usernameLogin" placeholder = "Enter your username" required>
+                    </div>
+                    <div class = "input-box">
+                        <span class = "details">Password</span>
+                        <input type = "text" id="passwordLogin" placeholder = "Enter your password" required>
+                    </div>
+                </div>
+                </dic>
+                <div class = "button">
+                    <input type ="button" value = "Register" onclick="window.location.href='/register.html'" >
+                    <input type="submit" onclick="window.location.href='/login.html'" value="Login">
+                    <input type="button" onclick="window.location.href='/site.html'" value="Back">
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="login.js"></script>
+</html>
